@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="290668bf-5a79-47d6-8792-97383251ae51" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Adam Tretera &lt;43199888+grixi@users.noreply.github.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1ZDAm1JJ4LTHVRmL1ueTMdnJQqp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/styles/img" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Adam\WebstormProjects\reacttest\src\styles\img\fav" />
+      <recent name="C:\Users\Adam\WebstormProjects\reacttest\src\components\modals" />
+      <recent name="C:\Users\Adam\WebstormProjects\reacttest\src\components\project" />
+      <recent name="C:\Users\Adam\WebstormProjects\reacttest\src\components" />
+      <recent name="C:\Users\Adam\WebstormProjects\reacttest\src\components\layout\elements" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Adam\WebstormProjects\reacttest\src\styles\img" />
+      <recent name="C:\Users\Adam\WebstormProjects\Mojera-files\src\blog" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="290668bf-5a79-47d6-8792-97383251ae51" name="Default Changelist" comment="" />
+      <created>1584363445011</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584363445011</updated>
+      <workItem from="1584363446621" duration="7330000" />
+      <workItem from="1584383277806" duration="5886000" />
+      <workItem from="1584449715045" duration="15148000" />
+      <workItem from="1584550468730" duration="13774000" />
+      <workItem from="1584605276910" duration="23135000" />
+      <workItem from="1584731976036" duration="599000" />
+      <workItem from="1584897688638" duration="3571000" />
+      <workItem from="1587311895680" duration="9661000" />
+      <workItem from="1587373608056" duration="26793000" />
+      <workItem from="1587462779063" duration="11266000" />
+      <workItem from="1587541642327" duration="19563000" />
+      <workItem from="1587632601117" duration="10386000" />
+      <workItem from="1587717821945" duration="16923000" />
+      <workItem from="1587822619511" duration="18529000" />
+      <workItem from="1587890589333" duration="12621000" />
+      <workItem from="1587984662895" duration="13429000" />
+      <workItem from="1588061201462" duration="25919000" />
+      <workItem from="1588171224681" duration="9320000" />
+      <workItem from="1588252870379" duration="4504000" />
+      <workItem from="1588264557922" duration="1073000" />
+      <workItem from="1588272725620" duration="46000" />
+      <workItem from="1588272794476" duration="2505000" />
+      <workItem from="1615302187769" duration="1851000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

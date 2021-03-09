@@ -1,0 +1,76 @@
+[debug] [2020-03-19T19:45:05.512Z] ----------------------------------------------------------------------
+[debug] [2020-03-19T19:45:05.514Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Adam\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only functions
+[debug] [2020-03-19T19:45:05.514Z] CLI Version:   7.15.1
+[debug] [2020-03-19T19:45:05.514Z] Platform:      win32
+[debug] [2020-03-19T19:45:05.514Z] Node Version:  v12.15.0
+[debug] [2020-03-19T19:45:05.515Z] Time:          Thu Mar 19 2020 20:45:05 GMT+0100 (Central European Standard Time)
+[debug] [2020-03-19T19:45:05.515Z] ----------------------------------------------------------------------
+[debug] [2020-03-19T19:45:05.515Z] 
+[debug] [2020-03-19T19:45:05.522Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-19T19:45:05.522Z] > authorizing via signed-in user
+[debug] [2020-03-19T19:45:05.522Z] [iam] checking project mojera-blog for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2020-03-19T19:45:05.524Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/mojera-blog:testIamPermissions  
+
+[debug] [2020-03-19T19:45:06.371Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'mojera-blog'...
+[info] 
+[info] i  deploying functions
+[debug] [2020-03-19T19:45:07.873Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "8"
+  },
+  "dependencies": {
+    "firebase-admin": "^8.6.0",
+    "firebase-functions": "^3.3.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.1.6"
+  },
+  "private": true
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[debug] [2020-03-19T19:45:07.874Z] >>> HTTP REQUEST GET https://serviceusage.googleapis.com/v1/projects/mojera-blog/services/cloudfunctions.googleapis.com  
+ 
+[debug] [2020-03-19T19:45:07.874Z] >>> HTTP REQUEST GET https://serviceusage.googleapis.com/v1/projects/mojera-blog/services/runtimeconfig.googleapis.com  
+ 
+[debug] [2020-03-19T19:45:08.852Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-19T19:45:08.859Z] <<< HTTP RESPONSE 200
+[info] +  functions: all necessary APIs are enabled
+[debug] [2020-03-19T19:45:08.861Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/mojera-blog/adminSdkConfig  
+ 
+[debug] [2020-03-19T19:45:09.126Z] <<< HTTP RESPONSE 200
+[info] i  functions: preparing functions directory for uploading...
+[debug] [2020-03-19T19:45:09.128Z] >>> HTTP REQUEST GET https://runtimeconfig.googleapis.com/v1beta1/projects/mojera-blog/configs  
+ 
+[debug] [2020-03-19T19:45:09.365Z] <<< HTTP RESPONSE 200
+[info] i  functions: packaged functions (26.9 KB) for uploading
+[debug] [2020-03-19T19:45:09.506Z] >>> HTTP REQUEST POST https://cloudfunctions.googleapis.com/v1/projects/mojera-blog/locations/us-central1/functions:generateUploadUrl  
+ 
+[debug] [2020-03-19T19:45:10.158Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-19T19:45:10.159Z] >>> HTTP REQUEST PUT https://storage.googleapis.com/gcf-upload-us-central1-beb0ac25-9596-49d6-9ee3-b070c86c42d9/97ab43cc-e482-4ce8-a3c3-8ae11dadc51f.zip?GoogleAccessId=service-537295121591@gcf-admin-robot.iam.gserviceaccount.com&Expires=1584648907&Signature=ibaPccRCnTilBewX3%2BmQYN8uq1J3ueOopSSXDwi57%2BProkNDnLWyvdHFWMMn%2BeDGW9a51wwOkYjAMHkWmfri8CMHHC06OXLVxt383UVBGHi1%2B7miI0FY5OwJlXZcYxp8u4F5wT8W1JyRXG461VSpWE7NHzM6oRmffYA8ssVaQNi2UQ7cknYTvU3aWdhBINpRp6eMHTgTf3sz3YuMNpXpEEnaVywkrvAOoowuu0LC0ocwYC30SmukzUCS3g8M0J8et31jW1dC%2BZzJPvKIVkCinD1KMV0Ayyh8%2BrtFfV5Keecc3X%2FtwWktbfM5A0EHXVXzK9pYbIbF9%2BwTmGwxFB%2FQXQ%3D%3D  
+ <request body omitted>
+[debug] [2020-03-19T19:45:10.430Z] <<< HTTP RESPONSE 200
+[info] +  functions: functions folder uploaded successfully
+[debug] [2020-03-19T19:45:10.433Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/projects/mojera-blog/locations/-/functions  
+ 
+[debug] [2020-03-19T19:45:10.773Z] <<< HTTP RESPONSE 200
+[info] i  functions: creating Node.js 8 function userJoined(us-central1)...
+[debug] [2020-03-19T19:45:10.775Z] Trigger is:  {"eventTrigger":{"resource":"projects/mojera-blog","eventType":"providers/firebase.auth/eventTypes/user.create","service":"firebaseauth.googleapis.com"}}
+[info] i  functions: updating Node.js 8 function projectCreated(us-central1)...
+[debug] [2020-03-19T19:45:10.776Z] Trigger is:  {"eventTrigger":{"resource":"projects/mojera-blog/databases/(default)/documents/projects/{projectId}","eventType":"providers/cloud.firestore/eventTypes/document.create","service":"firestore.googleapis.com"}}
+[info] 
+The following functions are found in your project but do not exist in your local source code:
+	helloWorld(us-central1)
+
+If you are renaming a function or changing its region, it is recommended that you create the new function first before deleting the old one to prevent event loss. For more info, visit https://firebase.google.com/docs/functions/manage-functions#modify
+
